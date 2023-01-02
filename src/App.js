@@ -1,0 +1,20 @@
+import './App.css';
+import Particles from './components/Particle';
+import Home from './components/Home/Home';
+import TechStack from './components/Techstack/techStack'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './components/About/about';
+
+function App() {
+  return (
+    <div className="App">
+      <Home/>
+      <Particles id="tsparticles" />
+      <TechStack />
+      <About/>
+
+    </div>
+  );
+}
+
+export default App;

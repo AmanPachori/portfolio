@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    --paragraphColor : #fff;
+    --themeColor:#ff8906;
+    --primaryColor : #9B59B6;
+    --backgroundColor: #000;
+}
+
+
+
+.App {
+  text-align: center;
+  background: transparent;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+/*---------------------------- Home -------------------------------*/
+.Home{
+  background: transparent;
+}
+.Home p{
+  color: var(--paragraphColor);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.Home .container{
+  width: 90vw;
+}
+
+/*---------------------------- Home -------------------------------*/
+.techStack h5{
+  color: var(--paragraphColor);
+}
+.about h5{
+  color: var(--paragraphColor);
+}
+.icondata{
+  max-width: 250px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  width: auto;
+  color: var(--backgroundColor) !important;
+  background: var(--paragraphColor) !important;
+  border:4px solid var(--primaryColor) !important;
+  border-radius: 15px !important;
+  opacity: 1 !important;
+  transition: none !important;
+  
+}
