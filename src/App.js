@@ -14,7 +14,6 @@ function App() {
       <TechStack />
       <About/>
       <Projects/>
-      <About/>
 
     </div>
   );

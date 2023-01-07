@@ -60,7 +60,8 @@
 	overflow: hidden;
   cursor: pointer;
 }
-.caption {
+
+/* .caption {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -79,8 +80,8 @@
 .caption h1 {
   font-family: 'Lora', sans-serif;
   color: var(--paragraphColor);
-}
-.projects:hover .caption {
+} */
+.projects:hover {
 	opacity: 1;
 	background-color: rgba(0,0,0,.5);
 }
