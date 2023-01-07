@@ -35,12 +35,12 @@
 }
 
 /*---------------------------- Home -------------------------------*/
-.techStack h5{
+.techStack h5,
+.about h5,
+.project h5{
   color: var(--paragraphColor);
 }
-.about h5{
-  color: var(--paragraphColor);
-}
+
 .icondata{
   max-width: 250px;
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -52,4 +52,56 @@
   opacity: 1 !important;
   transition: none !important;
   
+}
+/*--------------Projects Container--------------*/
+.projects{
+	height:40vh ;
+	position: relative;
+	overflow: hidden;
+  cursor: pointer;
+}
+.caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	transition: 0.5s;
+	opacity: 0;
+	background-color: rgba(0,0,0,0)
+}
+
+.caption h1 {
+  font-family: 'Lora', sans-serif;
+  color: var(--paragraphColor);
+}
+.projects:hover .caption {
+	opacity: 1;
+	background-color: rgba(0,0,0,.5);
+}
+.projects img{
+  width: 100%;
+  height: 100%;
+	transition: all .5s;
+}
+.projects:hover img {
+	transform: scale(1.02) rotate(0.7deg);
+}
+.projectInfo{
+  font-family: 'Lora', sans-serif;
+  color: var(--paragraphColor);
+}
+.projectInfo .btn{
+  background-color: var(--primaryColor);
+  color: var(--paragraphColor);
+}
+.projectInfo .btn :hover{
+  background-color: var(--primaryColor);
+  color: var(--paragraphColor);
+  transform: scale(1.02);
 }

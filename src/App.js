@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import TechStack from './components/Techstack/techStack'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About/about';
+import Projects from './components/Projects/projects';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Home/>
       <Particles id="tsparticles" />
       <TechStack />
+      <About/>
+      <Projects/>
       <About/>
 
     </div>
