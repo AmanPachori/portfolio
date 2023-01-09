@@ -1,4 +1,6 @@
 import React from 'react'
+import {data} from '../../Data/data'
+import Icons from "../../Techstack/Icon/Icons";
 
 const Card2 = ({e}) => {
   return (
@@ -12,6 +14,16 @@ const Card2 = ({e}) => {
       <div className="order-sm-first order-lg-2 col-lg-6 py-3 my-2 col-sm-12 projectInfo d-flex flex-column align-items-sm-top align-items-center justify-content-center">
         <h5 className="fs-3 fw-bolder"> {e.name}</h5>
         <p className="fs-5 fw-bold">{e.desc}</p>
+        <div className="d-flex ">
+          {
+            data.filter(item =>e.techStak.includes(item.name))
+            .map(item =>{
+             return(
+              <Icons e={item}/>
+             )
+            })
+          }
+        </div>
         <a
           target="_blank"
           href={e.link}
