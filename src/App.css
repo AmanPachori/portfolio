@@ -1,29 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+*{
     font-family: 'Lora', sans-serif;
     --paragraphColor : #fff;
     --themeColor:#ff8906;
     --primaryColor : #9B59B6;
     --backgroundColor: #000;
 }
-
-
-
 .App {
   text-align: center;
   background: transparent;
 
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-
 /*---------------------------- Home -------------------------------*/
 .Home{
   background: transparent;
 }
+
 .Home p,
 .about p{
   color: var(--paragraphColor);
