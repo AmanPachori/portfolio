@@ -4,7 +4,7 @@ const IconData = (prop) => {
   return(
     <>
     <ReactTooltip id={prop.id}  place='bottom'
- 
+
       effect='solid'
       delayHide={500}
       delayShow={300}

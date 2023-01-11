@@ -5,6 +5,7 @@
     --themeColor:#ff8906;
     --primaryColor : #9B59B6;
     --backgroundColor: #000;
+    --buttonColor : #38BDf8
 }
 .App {
   text-align: center;
@@ -122,3 +123,9 @@
     transform: rotate(360deg);
   }
 } 
+
+.resumeButton {
+  background-color: var(--buttonColor);
+  font-family: 'Lora';
+  font-weight: 500;
+}
