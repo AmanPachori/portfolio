@@ -1,23 +1,26 @@
-import React from 'react'
+import React from "react";
 import ReactTooltip from "react-tooltip";
 const IconData = (prop) => {
-  return(
+  return (
     <>
-    <ReactTooltip id={prop.id}  place='bottom'
-
-      effect='solid'
-      delayHide={500}
-      delayShow={300}
-      arrowColor='var(--primaryColor)'
-      delayUpdate={500} className='icondata'>
-    <h4 className='py-2 fw-bold'>{prop.name}</h4>
-    <p className='fw-normal fs-6'>{prop.desc}</p>
-  </ReactTooltip>
+      <ReactTooltip
+        id={prop.id}
+        place="bottom"
+        effect="solid"
+        delayHide={500}
+        delayShow={300}
+        arrowColor="var(--primaryColor)"
+        delayUpdate={500}
+        className="icondata"
+      >
+        <h4 className="py-2 fw-bold">{prop.name}</h4>
+        <p className="fw-normal fs-6">{prop.desc}</p>
+      </ReactTooltip>
     </>
-  )
-}
+  );
+};
 
-const Icons = ({e}) => {
+const Icons = ({ e }) => {
   return (
     <>
       <img
@@ -30,6 +33,6 @@ const Icons = ({e}) => {
       <IconData name={e.name} desc={e.desc} id={e.id} />
     </>
   );
-}
+};
 
-export default Icons
+export default Icons;
