@@ -1,9 +1,9 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import '../../App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import "../../App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
@@ -32,8 +32,13 @@ const Home = () => {
                     ],
                   }}
                 ></Typewriter>{" "}
-                <a href='https://drive.google.com/file/d/17G_49OWRe8CEeNHoAUT1lf1KNpMCRGiY/view' target="_blank" >
-                <button className='border-0 resumeButton rounded p-2 fs-5 my-2'>Resume </button>
+                <a
+                  href="https://drive.google.com/file/d/17G_49OWRe8CEeNHoAUT1lf1KNpMCRGiY/view"
+                  target="_blank"
+                >
+                  <button className="border-0 resumeButton rounded p-2 fs-5 my-2">
+                    Resume{" "}
+                  </button>
                 </a>
               </span>
             </p>
@@ -42,6 +47,6 @@ const Home = () => {
       </Container>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
