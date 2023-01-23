@@ -5,7 +5,7 @@ import Icons from "../../Techstack/Icon/Icons";
 const Card1 = ({ e }) => {
   return (
     <div className="row p-3 my-1">
-      <div className="order-sm-first col-lg-6 my-2 py-3 col-sm-12 projectInfo d-flex flex-column align-items-center justify-content-center">
+      <div className="order-sm-first order-xs-first col-lg-6 my-2 py-3 col-sm-12 projectInfo d-flex flex-column align-items-center justify-content-center">
         <h5 className="fs-3 fw-bolder">{e.name}</h5>
         <p className="fs-5 fw-bold">{e.desc}</p>
         <div className="d-flex ">
@@ -23,7 +23,7 @@ const Card1 = ({ e }) => {
           See Code
         </a>
       </div>
-      <div className="order-sm-2 col-lg-6 my-2 projects col-sm-12">
+      <div className="order-sm-2 order-xs-last col-lg-6 my-2 projects col-sm-12">
         <img src={e.img} alt="Image" className="rounded" />
         {/* <div class="caption">
                   <h1>{e.name}</h1>
