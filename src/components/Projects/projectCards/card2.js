@@ -1,8 +1,8 @@
-import React from 'react'
-import {data} from '../../Data/data'
+import React from "react";
+import { data } from "../../Data/data";
 import Icons from "../../Techstack/Icon/Icons";
 
-const Card2 = ({e}) => {
+const Card2 = ({ e }) => {
   return (
     <div className="row p-3 my-1">
       <div className="col-lg-6 order-sm-2 order-xs-last order-lg-1 my-2 py-3 projects col-sm-12">
@@ -15,14 +15,11 @@ const Card2 = ({e}) => {
         <h5 className="fs-3 fw-bolder"> {e.name}</h5>
         <p className="fs-5 fw-bold">{e.desc}</p>
         <div className="d-flex ">
-          {
-            data.filter(item =>e.techStak.includes(item.name))
-            .map(item =>{
-             return(
-              <Icons e={item}/>
-             )
-            })
-          }
+          {data
+            .filter((item) => e.techStak.includes(item.name))
+            .map((item) => {
+              return <Icons e={item} />;
+            })}
         </div>
         <a
           target="_blank"
@@ -34,6 +31,6 @@ const Card2 = ({e}) => {
       </div>
     </div>
   );
-}
+};
 
-export default Card2
+export default Card2;
