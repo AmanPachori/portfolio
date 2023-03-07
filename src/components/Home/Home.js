@@ -33,7 +33,7 @@ const Home = () => {
                   }}
                 ></Typewriter>{" "}
                 <a
-                  href="https://drive.google.com/file/d/1M3Pu8RkAcShAFW-gTHUSXLgB03z18uOV/view"
+                  href="https://drive.google.com/file/d/1B_LoD7msOci05VG76sDg7_-PtvVrAHSM/view?usp=share_link"
                   target="_blank"
                 >
                   <button className="border-0 resumeButton rounded p-2 fs-5 my-2">
